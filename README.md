@@ -28,10 +28,10 @@ rejsetru są automatycznie podpowiadane podczas wpisywania, co skraca czas wype�
 rejestru oraz pozwala na zachowanie identycznych nazw np. kontrachentów.
 
 Dane np. kontrachentów i części zamiennych pobierane są z wewnętrznego systemu firmy
-co pozwala na zachowanie aktualnych danych kontrachentów oraz pozwala na pobieranie
+co pozwala na zachowanie aktualnych danych kontrachentów oraz pobieranie
 nazw oraz numerów części zamiennych wprost z magazynu.
 
-Dane dotyczącej każdej naprawy wprowadzamy tylko raz i z nich generujemy KN oraz ZN.
+Dane dotyczące każdej naprawy wprowadzamy tylko raz i z nich generujemy KN oraz ZN.
 
 Niestety nie można zaprezentować pełnej funkcjonalności rejestru bez wenętrznego systemu 
 informatycznego DM z którym rejestr z założenia współpracuje.
