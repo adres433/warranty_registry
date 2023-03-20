@@ -1,0 +1,162 @@
+﻿#kontener_form, #kontener_serwisy
+{
+	width: 760px;
+	height: 700px;
+	position: fixed;
+	left: 20%;
+	top: 5%;
+	text-align: center;
+	overflow: auto;
+	overflow-x: auto;
+	display: none;
+	z-index: 20;	/*90*/
+	background: #cdcdcd;
+}
+#kontener_serwisy
+{
+	max-width: 562px;
+	min-width: 562px;
+	height: 460px;
+	left: 30%
+}
+#form_rejestr, #serwisy_form
+{
+	background: #cdcdcd;
+	min-width: 362px;
+	min-height: 590px;
+	float: left;
+}
+#serwisy_form
+{
+	min-height: 360px;
+	min-width: 362px;
+}
+#form_karta, #serwisy_buttons
+{
+	background: #cdcdcd;
+	min-width: 362px;
+	min-height: 590px;
+	float: left;
+}
+#serwisy_buttons
+{
+	padding-top: 60px;
+	min-width: 200px;
+	min-height: 100px;
+	overflow: hidden;
+}
+#przyciski
+{
+	background: #cdcdcd;
+	width: 724px;
+	height: 50px;
+	float: left;
+}
+select, textarea
+{
+	width: 142px;
+}
+textarea
+{
+	position: fixed;
+	height: 60px;
+	resize: horizontal;
+}
+table
+{
+	text-align: left;
+}
+input, textarea, option, select
+{
+	background: #eaeaea;
+	border: none;
+}
+.button {
+   border-top: 1px solid #f2f2f2;
+   background: #595959;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c9c9c), to(#595959));
+   background: -webkit-linear-gradient(top, #9c9c9c, #595959);
+   background: -moz-linear-gradient(top, #9c9c9c, #595959);
+   background: -ms-linear-gradient(top, #9c9c9c, #595959);
+   background: -o-linear-gradient(top, #9c9c9c, #595959);
+   padding: 4px 8px;
+   -webkit-border-radius: 7px;
+   -moz-border-radius: 7px;
+   border-radius: 7px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #fcfcfc;
+   font-size: 12px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #a9aaab;
+   background: #a9aaab;
+   color: #000000;
+   }
+.button:active {
+   border-top-color: #454545;
+   background: #454545;
+   }
+#b_wczytaj
+{
+	display: none;
+	float: right;
+}
+.ui-datepicker {
+	width: 13em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+	display: block;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: .8em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 50%;
+}
+.ui-widget button
+{
+	font-size: 10px;
+}
+#wybor_czesci
+{
+	position:absolute; 
+	left:2px; top:0px; 
+	background-color:#555555; 
+	width:300px; 
+	display:none;
+	height:auto;
+}
+.dlugi_text
+{
+	height: 60px; 
+	vertical-align: top;
+}
+.uzytkownikk
+{
+	height: 40px !important;
+}

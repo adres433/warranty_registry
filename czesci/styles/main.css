@@ -1,0 +1,124 @@
+#main
+{
+	width: 1046px;
+	height: 650px;
+	outline: solid black 3px;
+	margin: 25px auto;
+}
+#tytul
+{
+	width: 1046px;
+	height: 65px;
+	border: solid black 1px;
+	float: left;
+	text-align: center;
+}
+#draw
+{
+	width: 674px;
+	height: 650px;
+	border-right: dashed black 2px;
+	margin: auto 0 auto 0;
+	float: left;
+	overflow: auto;
+	z-index: 1;
+	position: relative;
+}
+#list_parts
+{
+	width: 370px;
+	height: 580px;
+	float: right;
+	/*outline: dashed gray 3px;*/
+	margin: 5px auto;
+	overflow: auto;
+}
+.parts
+{
+	width: 350px;
+	height: 50px;
+	outline: groove 2px;
+	margin: 5px auto;
+}
+#parts
+{
+	width: 350px;
+	height: 65px;
+	/*outline: double 5px blue;*/
+	text-align: center;
+	font-size: 30px;
+	float: right;
+	border-bottom: 1px solid black;
+}
+#rysunek
+{
+z-index: -1;
+position: absolute;
+}
+#min	
+{
+	opacity: .7;
+}
+#menu_1, #menu_2, #add_part, #Next, #del_part
+{
+	width: 30px;
+	height: 30px;
+	background: url('../images/menu.png') no-repeat -30px 0px;
+	/*outline: solid pink 2px;*/
+	margin: 0 0 0 145px ;
+	float: left;
+	cursor: pointer;
+}
+#menu_2
+{
+	background-position: 0px 0px;
+	float: left;
+	margin: 0 0 0 0;
+}
+.parts
+{
+	width: 350px;
+	height: 80px;
+}
+h4
+{
+	text-align: center;
+	margin-bottom: 0px;
+	text-decoration: bold;
+	font-variant: small-caps;
+}
+#add_part
+{
+	background-position: -150px 0px;
+}
+#Next
+{
+	background-position: -120px 0px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+.add_coords
+{
+	width: 30px;
+	height: 30px;
+	background: url('../images/menu.png') -90px 0;
+	border: 0px;
+}
+.del_coords
+{
+	width: 30px;
+	height: 30px;
+	background: url('../images/menu.png') -60px 0;
+	border: 0px;
+}
+#del_part
+{
+	background: url('../images/menu.png') -180px 0px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}

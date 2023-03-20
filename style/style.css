@@ -1,0 +1,123 @@
+body
+	{
+		background: silver;
+		width: 2000px;
+		margin: auto;
+	}
+#tabela_rejestru
+	{
+		background: white;
+	}
+	#tabela_rejestru td
+	{
+		border: 1px solid gray; 
+		text-align: center;
+	}
+//#bg_alert p
+//	{
+//		border: none; 
+//		text-align: center;
+//		background:#f4f4f4;
+//		width: 70px;
+	}
+*.kom_rej
+	{
+		width: 500px;
+		border: solid 1px green;
+		text-align: center;
+	}
+*.czas_real, *.nr_pg
+	{
+		width: 100px !important;
+	}
+#alert
+	{
+		background: silver;
+		width: 300px;
+		height: 160px;
+		position: fixed;
+		z-index:100;
+		top:35%;
+		left:35%;
+	}
+*.tresc_alert
+	{
+		background: silver;
+		width: 300px;
+		z-index:100;
+		top:35%;
+		left:35%;
+		text-align: center;
+	}
+#bg_alert
+	{
+		background: gray;
+		width: 5000px;
+		height: 5000px;
+		z-index: 99;
+		overflow: hidden;
+		position: fixed;
+		margin: 0 0 0 0 ;
+		opacity: 0.8;
+	}
+#przycisk_alert
+	{
+		background: white;
+		width: 80px;
+		height: 20px;
+		z-index: 100;
+		text-align: center;
+		margin-left: 110px;
+	}
+#menu, #menu1
+	{
+		background: gray;
+		width: 200px;
+		height: 30px;
+		z-index: 95;
+		text-align: center;
+		position: fixed;
+		bottom: 40px;
+		border: solid green 1px;
+		left: 45%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}	
+#menu1
+{
+	border: none; 
+	background: none; 
+	z-index: 94;
+	visibility: visible;
+	display: block;
+}
+#menu
+{
+	display: none;
+}
+#przyciemnij
+	{
+		width: 100000px;
+		height: 100000px;
+		position: fixed;
+		background: gray;
+		opacity: 0.7;
+		z-index: 19;
+		display: none;
+	}
+span
+{
+	margin-left: 8px;
+}
+.ui-tooltip
+{
+	font-size: 10px;
+	background: #eaeaea;
+}
+.ui-datepicker
+{
+	min-width: 210px !important;
+	font-size: 12px;
+}
