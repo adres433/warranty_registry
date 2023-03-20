@@ -5,6 +5,7 @@ Rejestr pracował [może jeszcze pracuje] w serwisie producenta urządzeń
 gastronomicznych. 
 Jego zadaniem miałobyć uproszczenie procedury rejestrowania zgłoszeń serwisowych,
 generowania Karty Naprawy [KN] oraz Zlecenia Naprawy [ZN] dla konkretnego serwisu zewnętrznego.
+Rejsetr pozwala również na kontrolę nad wysyłanymi zestawami cześci zamiennych do seriwsów zewnętrznych.
 
 ### BYŁO: ###
 
